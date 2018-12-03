@@ -22,7 +22,6 @@ class App extends Component {
     componentWillMount () {
         const that = this
         window.addEventListener('pageshow', function () {
-            console.log(123, that)
             that.changeRem();
         });
         window.addEventListener('resize', function () {
